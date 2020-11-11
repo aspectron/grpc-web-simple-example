@@ -1,0 +1,22 @@
+{
+  "name": "grpc-web-simple-example",
+  "version": "0.1.0",
+  "description": "gRPC-Web simple example",
+  "main": "server.js",
+  "scripts": {
+    "watch": "webpack --watch",
+    "start": "webpack serve",
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "@grpc/grpc-js": "*",
+    "@grpc/proto-loader": "*",
+    "async": "*",
+    "google-protobuf": "*",
+    "grpc-web": "*",
+    "lodash": "*",
+    "webpack": "*",
+    "webpack-cli": "*",
+    "webpack-dev-server": "^3.11.0"
+  }
+}

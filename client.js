@@ -67,7 +67,7 @@ let req = {
 //console.log(new Date,'req:',req);
 //stream.write(req);
 
-/*
+
 // simple unary call
 let request = new HelloRequest();
 request.setName('World');
@@ -82,10 +82,11 @@ client.sayHello(request, {}, (err, response) => {
 });
 
 console.log("client", client)
-/*
+
 
 let utxosRequest = new UTXOsRequest();
 utxosRequest.setAddressesList(["xyz", "abc"])
+
 client.getUTXOs(utxosRequest, {}, (err, response)=>{
 	console.log("getUTXOs:err, response", err, response)
 	let utxos = response.getUtxosList().map(o=>o.toObject())

@@ -8,6 +8,12 @@
     "start": "webpack serve",
     "build": "webpack"
   },
+  "dependencies": {
+    "@aspectron/flow-grpc-web": "file:../flow-grpc-web",
+    "@aspectron/flow-grpc-proxy": "file:../flow-grpc-proxy",
+    "socket.io": "*",
+    "express": "*"
+  },
   "devDependencies": {
     "@grpc/grpc-js": "*",
     "@grpc/proto-loader": "*",

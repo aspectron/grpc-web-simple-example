@@ -1,6 +1,9 @@
 ## Setup 
 
-- ```sh git clone https://github.com/aspectron/grpc-web-simple-example ```
+- ```sh 
+- git clone https://github.com/aspectron/grpc-web-simple-example 
+- git checkout b2
+- ```
 - ```sh git clone https://github.com/aspectron/flow-grpc-web ```
 - ```sh git clone https://github.com/aspectron/flow-grpc-proxy ```
 
@@ -14,9 +17,9 @@
 - ```sh npm install ```
 - ```sh node web-server ```
 
-##load test page 
+## load test page 
 load http://localhost:3000/ in browser
-from chrome devtool/console u can test kaspad grpc as bellow
+from chrome devtool/console you can test kaspad grpc as bellow
 ```js
 testStream({ getMempoolEntriesRequest:{} })
 testStream({ resolveFinalityConflictRequest:{} })

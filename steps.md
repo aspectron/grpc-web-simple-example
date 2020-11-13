@@ -1,11 +1,11 @@
 ## Setup 
 
-- ```sh 
-- git clone https://github.com/aspectron/grpc-web-simple-example 
-- git checkout b2
-- ```
-- ```sh git clone https://github.com/aspectron/flow-grpc-web ```
-- ```sh git clone https://github.com/aspectron/flow-grpc-proxy ```
+
+  ```sh 
+  git clone https://github.com/aspectron/grpc-web-simple-example
+  git clone https://github.com/aspectron/flow-grpc-web
+  git clone https://github.com/aspectron/flow-grpc-proxy
+  ```
 
 ## Run kaspad
 - ```sh git clone https://github.com/aspectron/kaspad ```
@@ -14,6 +14,7 @@
 
 ## Start a sample web server which is using "flow-grpc-proxy"
 - ```sh cd ../grpc-web-simple-example ```
+- ```sh git checkout b2 ```
 - ```sh npm install ```
 - ```sh node web-server ```
 

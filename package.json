@@ -12,11 +12,11 @@
     "@aspectron/flow-grpc-web": "file:../flow-grpc-web",
     "@aspectron/flow-grpc-proxy": "file:../flow-grpc-proxy",
     "socket.io": "*",
-    "express": "*"
+    "express": "*",
+    "@grpc/grpc-js": "*",
+    "@grpc/proto-loader": "*"
   },
   "devDependencies": {
-    "@grpc/grpc-js": "*",
-    "@grpc/proto-loader": "*",
     "async": "*",
     "google-protobuf": "*",
     "grpc-web": "*",
